@@ -1,0 +1,49 @@
+		*{
+        padding:0;
+        margin: 0;
+    	}
+        #wrapper {
+            width: 1250px;
+			height: 900px;
+            margin: auto;
+        }
+        ul {
+            list-style: none;
+            padding-top: 20px;
+        }
+        li {
+            float: left;
+            width:188px;
+            height:300px;
+            padding:5px;
+            text-align: center;
+            position:relative;
+            border: 1px #ddd solid;
+        }
+        li:hover {
+            width: 300px;
+            transition: width 1s;
+            border: 2px double purple;
+          }
+        li:hover img:hover {
+            width: 180px;
+            height: 200px;
+            transition: width 2s, height 2s;
+		}
+        li img {
+            width: 170px;
+            height:140px;
+            padding: 10px ;
+        }
+        b {
+        	color:red;
+        }
+        h2 {
+        	font-family:arial;
+        	border-bottom: 4px solid red ;
+        }
+        h4 {
+        	  width:110px;
+            height:20px;
+            background:#15e924;
+		  }
